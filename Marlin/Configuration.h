@@ -1237,7 +1237,7 @@
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 500 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 1600, 1600, 1600, 500 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 3200, 3200, 3200, 500 }
 
 /**
  * Enable support for M92. Disable to save at least ~530 bytes of flash.
