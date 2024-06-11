@@ -1240,7 +1240,8 @@
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 500 }
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 3200, 3200, 3200, 500 }
 // 200 motor-steps/rev x 16 micro-steps/motor-steps / 4 mm/rev 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 800, 800, 800, 500 }
+// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 800, 800, 800, 500 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 48.48, 48.48, 800, 500 }
 
 /**
  * Enable support for M92. Disable to save at least ~530 bytes of flash.
@@ -1753,8 +1754,8 @@
 // @section motion
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
-#define INVERT_X_DIR true
-#define INVERT_Y_DIR false
+#define INVERT_X_DIR false
+#define INVERT_Y_DIR true
 #define INVERT_Z_DIR true
 //#define INVERT_I_DIR false
 //#define INVERT_J_DIR false
